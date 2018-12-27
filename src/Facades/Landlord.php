@@ -1,8 +1,8 @@
 <?php
 
-namespace Bissolli\Landlord\Facades;
+namespace airDjura\Landlord\Facades;
 
-use Bissolli\Landlord\TenantManager;
+use airDjura\Landlord\TenantManager;
 use Illuminate\Support\Facades\Facade;
 
 class Landlord extends Facade

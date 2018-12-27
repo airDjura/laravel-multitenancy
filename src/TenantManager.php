@@ -1,9 +1,9 @@
 <?php
 
-namespace Bissolli\Landlord;
+namespace airDjura\Landlord;
 
-use Bissolli\Landlord\Exceptions\TenantColumnUnknownException;
-use Bissolli\Landlord\Exceptions\TenantNullIdException;
+use airDjura\Landlord\Exceptions\TenantColumnUnknownException;
+use airDjura\Landlord\Exceptions\TenantNullIdException;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;

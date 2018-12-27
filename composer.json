@@ -1,8 +1,8 @@
 {
-    "name": "bissolli/laravel-landlord",
+    "name": "airDjura/laravel-landlord",
     "description": "A simple, single database multi-tenancy solution for Laravel",
-    "version": "3.0.3",
-    "homepage": "https://github.com/bissolli/laravel-landlord",
+    "version": "3.0.5",
+    "homepage": "https://github.com/airDjura/laravel-multitenancy",
     "license": "MIT",
     "keywords": [
         "tenant",
@@ -13,12 +13,8 @@
     ],
     "authors": [
         {
-            "name": "Caleb Fidecaro",
-            "email": "calebfidecaro@gmail.com"
-        },
-        {
-            "name": "Gustavo Bissolli",
-            "email": "gustavo.bissolli@gmail.com"
+            "name": "airDjura",
+            "email": "airdjura@gmail.com"
         }
     ],
     "require": {
@@ -32,16 +28,16 @@
     },
     "autoload": {
         "psr-4": {
-            "Bissolli\\Landlord\\": "src/"
+            "airDjura\\Landlord\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Bissolli\\Landlord\\LandlordServiceProvider"
+                "airDjura\\Landlord\\LandlordServiceProvider"
             ],
             "aliases": {
-                "Landlord": "Bissolli\\Landlord\\Facades\\Landlord"
+                "Landlord": "airDjura\\Landlord\\Facades\\Landlord"
             }
         }
     }

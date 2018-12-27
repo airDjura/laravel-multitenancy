@@ -1,8 +1,8 @@
 <?php
 
-namespace Bissolli\Landlord;
+namespace airDjura\Landlord;
 
-use Bissolli\Landlord\Exceptions\ModelNotFoundForTenantException;
+use airDjura\Landlord\Exceptions\ModelNotFoundForTenantException;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 

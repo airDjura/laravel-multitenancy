@@ -1,6 +1,6 @@
 <?php
 
-namespace Bissolli\Landlord\Exceptions;
+namespace airDjura\Landlord\Exceptions;
 
 use Exception;
 

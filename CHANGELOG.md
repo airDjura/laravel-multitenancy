@@ -50,12 +50,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ```php
 //Before
-public function __construct(\Bissolli\Landlord\Landlord $landlord) {
+public function __construct(\airDjura\Landlord\Landlord $landlord) {
     $this->landlord = $landlord;
 }
 
 // After
-public function __construct(\Bissolli\Landlord\TenantManager $landlord) {
+public function __construct(\airDjura\Landlord\TenantManager $landlord) {
     $this->landlord = $landlord;
 }
 ```

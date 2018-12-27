@@ -1,6 +1,6 @@
 <?php
 
-namespace Bissolli\Landlord;
+namespace airDjura\Landlord;
 
 use Illuminate\Support\ServiceProvider;
 
