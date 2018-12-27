@@ -1,0 +1,48 @@
+{
+    "name": "bissolli/laravel-landlord",
+    "description": "A simple, single database multi-tenancy solution for Laravel",
+    "version": "3.0.3",
+    "homepage": "https://github.com/bissolli/laravel-landlord",
+    "license": "MIT",
+    "keywords": [
+        "tenant",
+        "tenancy",
+        "multitenant",
+        "multitenancy",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Caleb Fidecaro",
+            "email": "calebfidecaro@gmail.com"
+        },
+        {
+            "name": "Gustavo Bissolli",
+            "email": "gustavo.bissolli@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*"
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9|~1.0",
+        "phpunit/phpunit": "5.5.*|6.0.*|7.0.*",
+        "laravel/framework": "5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bissolli\\Landlord\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bissolli\\Landlord\\LandlordServiceProvider"
+            ],
+            "aliases": {
+                "Landlord": "Bissolli\\Landlord\\Facades\\Landlord"
+            }
+        }
+    }
+}
